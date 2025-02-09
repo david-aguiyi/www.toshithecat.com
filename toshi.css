@@ -12,7 +12,7 @@ html {
 
 .toshixbt{
     font-family: toshi;
-    margin-left: 12rem;
+    /* margin-left: 12rem; */
 }
 body {
     margin: 0;
@@ -3101,6 +3101,7 @@ figcaption {
     background-color: #A97AFA;
     color: var(--color--white);
     overflow: hidden;
+    height: 100vh;
 }
 .header26_component {
     grid-column-gap: 2rem;
@@ -3116,13 +3117,16 @@ figcaption {
     justify-content: center;
     align-items: flex-end;
     width: 100%;
+    margin-top: -33rem;
     max-width: 40%;
+    margin-left: -69%;
     display: flex;
 }
 .header26_image {
-    object-fit: contain;
-    object-position: 50% 100%;
+    /* object-fit: contain; */
+    /* object-position: 50% 100%; */
     width: 100%;
+    margin-top: -33rem;
     height: 100%;
     margin-top: auto;
 }
@@ -3529,6 +3533,7 @@ figcaption {
 }
 .header_logo {
     /* width: 23.13rem; */
+    /* text-align: center; */
 }
 .header_base-wrapper {
     width: 100%;
@@ -3538,6 +3543,7 @@ figcaption {
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
     flex-flow: column;
+    /* margin-top: 33rem; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -3828,6 +3834,8 @@ figcaption {
     grid-row-gap: 0.5rem;
     flex-flow: column;
     display: flex;
+    /* margin-top: 8rem; */
+    margin-bottom: -3rem;
 }
 .footer_base {
     max-width: 11rem;
